@@ -1,0 +1,1 @@
+$(document).ready(function(){$('[data-toggle="tooltip"]').attr("title",()=>{var o=["Lorem, ipsum dolor sit amet","dolores corporis facilis quidem","Id asperiores, numquam amet laboriosam","a blanditiis culpa sit velit nemo inventore nobis"];return o[Math.floor(Math.random()*o.length)]}).tooltip("fixTitle").tooltip("show")});

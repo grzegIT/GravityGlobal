@@ -1,0 +1,7 @@
+/*!
+ * Bootstrap v4.3.1 (https://getbootstrap.com/)
+ * Copyright 2011-2019 The Bootstrap Authors
+ * Copyright 2011-2019 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ */@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap");:root{font-size:62.5%}.btn{background-color:#e4c1ae;min-width:13.5rem;min-height:4.7rem;border-radius:4.4rem;-webkit-border-radius:4.4rem;-moz-border-radius:4.4rem;-ms-border-radius:4.4rem;-o-border-radius:4.4rem;-webkit-border-radius:4.8rem;font-size:1.6rem;font-weight:700;color:#fff}.btn:hover{background-color:#e6a17c}*{text-decoration:none;outline:none;padding:0;margin:0;box-sizing:border-box}a,h1,p{font-family:Roboto,sans-serif}body{background-color:#f0f0f0}[class*=con]{background-color:#fff;color:#121212;margin-top:6.25rem}.welcome [class*=col]{padding:0}.welcome img{width:100%}.welcome .text-block{height:100%;display:flex;flex-direction:column;padding:4.3rem 5.05rem 3.45rem}.welcome .text-block h1{font-size:4.2rem;font-weight:700}.welcome .text-block p{font-size:1.6rem;font-weight:300;margin:4.3rem 0 3.5rem}.welcome .text-block .btn{align-self:flex-end}@media screen and (min-width:600px){.welcome img{height:100%}}@media screen and (min-width:600px) and (min-width:1024px){.welcome img{height:100%}.welcome .text-block{padding:8.6rem 10.1rem 6.9rem}}
+/*# sourceMappingURL=custom.css.map */

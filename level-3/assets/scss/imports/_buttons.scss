@@ -1,0 +1,43 @@
+.btn {
+    border: none;
+    min-width: 13.5rem;
+    min-height: 4.7rem;
+    border-radius: 4.4rem;
+    -webkit-border-radius: 4.4rem;
+    -moz-border-radius: 4.4rem;
+    -ms-border-radius: 4.4rem;
+    -o-border-radius: 4.4rem;
+    -webkit-border-radius: 4.8rem;
+    &.btn-cta {
+        background-color: $primaryColor;
+        font-size: 1.6rem;
+        font-weight: 700;
+        color: $bgTextareaColor;
+        &:hover {
+            background-color: $hoverColor;
+        }
+    }
+    &.btn-primary,
+    &.btn-secondary,
+    &.btn-cta {
+        font-size: 1.6rem;
+        font-weight: 700;
+        color: $bgTextareaColor;
+    }
+    &.btn-primary {
+        background-color: $primaryColor;
+        &:hover,
+        &:active {
+            background-color: $hoverColor;
+        }
+    }
+    &.btn-secondary {
+        background-color: $secondaryColor;
+        border: solid 1px $primaryColor;
+        color: $hoverColor;
+        &:hover {
+            background-color: $hoverColor;
+            color: $secondaryColor;
+        }
+    }
+}

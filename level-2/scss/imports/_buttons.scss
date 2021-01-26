@@ -1,0 +1,17 @@
+.btn {
+    background-color: $primaryColor;
+    min-width: 13.5rem;
+    min-height: 4.7rem;
+    border-radius: 4.4rem;
+    -webkit-border-radius: 4.4rem;
+    -moz-border-radius: 4.4rem;
+    -ms-border-radius: 4.4rem;
+    -o-border-radius: 4.4rem;
+    -webkit-border-radius: 4.8rem;
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: $bgTextareaColor;
+    &:hover {
+        background-color: $hoverColor;
+    }
+}

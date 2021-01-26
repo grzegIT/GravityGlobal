@@ -1,0 +1,146 @@
+/*!
+ * Bootstrap v4.3.1 (https://getbootstrap.com/)
+ * Copyright 2011-2019 The Bootstrap Authors
+ * Copyright 2011-2019 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ */
+
+@import "functions";
+@import "imports/variables";
+@import "mixins";
+@import "imports/root";
+@import "reboot";
+@import "imports/type";
+@import "images";
+@import "code";
+@import "grid";
+@import "tables";
+@import "forms";
+@import "imports/buttons";
+@import "transitions";
+@import "dropdown";
+@import "button-group";
+@import "input-group";
+@import "custom-forms";
+@import "nav";
+@import "navbar";
+@import "card";
+@import "breadcrumb";
+@import "pagination";
+@import "badge";
+@import "jumbotron";
+@import "alert";
+@import "progress";
+@import "media";
+@import "list-group";
+@import "close";
+@import "toasts";
+@import "modal";
+@import "tooltip";
+@import "popover";
+@import "carousel";
+@import "spinners";
+@import "utilities";
+@import "print";
+
+// Custom.scss
+// Option A: Include all of Bootstrap
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+/* variables */
+
+* {
+    text-decoration: none;
+    outline: none;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+/* Fonts properties */
+
+h1,
+p,
+a {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/* Layout properties */
+
+body {
+    background-color: $bgColor;
+}
+
+[class*="col"] {}
+
+[class*="con"] {
+    background-color: $secondaryColor;
+    color: $textColor;
+    margin-top: 6.25rem;
+}
+
+
+/* -- Welcome section -- */
+
+.welcome {
+    [class*="col"] {
+        padding: 0;
+        /* min-height: 40.7rem; */
+    }
+    img {
+        /* object-fit: cover; */
+        width: 100%;
+        /* height: auto; */
+    }
+    .text-block {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        padding: ($topPadd * 0.5) ($horizonPadd * 0.5) ($bottPadd * 0.5);
+        h1 {
+            font-size: 4.2rem;
+            font-weight: 700;
+        }
+        p {
+            font-size: 1.6rem;
+            font-weight: 300;
+            margin: 4.3rem 0 3.5rem;
+        }
+        .btn {
+            align-self: flex-end;
+        }
+    }
+}
+
+@media screen and (min-width: 600px) {
+    /* -- Welcome section -- */
+    .welcome {
+        [class*="col"] {}
+        img {
+            height: 100%;
+        }
+        .text-block {
+            h1 {}
+            p {}
+            .btn {}
+        }
+    }
+    @media screen and (min-width: 1024px) {
+        /* -- Welcome section -- */
+        .welcome {
+            [class*="col"] {}
+            img {
+                height: 100%;
+            }
+            .text-block {
+                padding: 8.6rem 10.1rem 6.9rem;
+                h1 {}
+                p {}
+                .btn {}
+            }
+        }
+    }
+}
