@@ -1,10 +1,3 @@
-# GravityGlobal
-This is a recruitment project from Gravity Global - Digital as a Service company. It includes three tasks of varying difficulty. The project requires the HTML, SCSS, Bootstrap, Twig and PHP technologies depending on the level of the task.
-
-Live: http://grzegorzgolonka.pl/gravityglobal/
-
-# --- Below is a description of the tasks ---
-
 # Front-end developer recruitment task
 
 Hello 👋🏼 braveheart. We are truely delighted to introduce you to a front-end developer recruitment task. It was designed to provide multiple layers of a feedback for our HR teams in the recruitment process. You will be asked to create a module based on a prototype – on top of ability to code pixel perfect component optimized for all size devices, we will examine code quality, your english and documentation reading skills as well as usage of latest trends and technologies.
